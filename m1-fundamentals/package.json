@@ -1,0 +1,12 @@
+{
+  "type": "module",
+  "name": "fundamentals",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": "src",
+  "author": "Rian Perassoli",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node --watch src/server.js"
+  }
+}
