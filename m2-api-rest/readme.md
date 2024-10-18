@@ -2,16 +2,16 @@ To create migrations/tables with knex, use the command `yarn knex -- migrate:mak
 To run the migrations, use the command `yarn knex -- migrate:latest`
 To revert the migration, use the command `yarn knex -- migrate:rollback`
 
-## ROUTES:
+# ROUTES:
 
-# RF
+## RF
 
 - [ ] O usuário deve poder criar uma nova transação;
 - [ ] O usuário deve poder obter um resumo da sua conta;
 - [ ] O usuário deve poder listar todas transações que já ocorreram;
 - [ ] O usuário deve poder visualizar uma transação única;
 
-# RN
+## RN
 
 - [ ] A transação pode ser do tipo crédito que somará ao valor total, ou débito subtrairá;
 - [ ] Deve ser possível identificarmos o usuário entre as requisições;
